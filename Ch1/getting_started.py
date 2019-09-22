@@ -32,3 +32,16 @@ text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
 
 # generate will generate some random text "in the various styles" of the given texts. No argument required
 text5.generate()
+
+# len() returns the number of words and punctuation in a text (tokens)
+len(text6)
+
+# set() will return a set of all tokens in a given text
+sorted(set(text3))
+len(set(text3))
+
+# calculating the "lexical richness" of a text is just number of distinct words divided by number of words
+len(set(text3)) / len(text3)
+
+
+
