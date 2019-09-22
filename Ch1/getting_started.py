@@ -29,3 +29,6 @@ text2.common_contexts(["monstrous", "very"])
 # dispersion plots show positional information about the location of words in a text. we can use this to find patterns in word usage in a given text, or use it to find patterns of word usage over a period of history
 
 text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
+
+# generate will generate some random text "in the various styles" of the given texts. No argument required
+text5.generate()
