@@ -19,3 +19,13 @@ text3.concordance("lived")
 # 'text4 is Inaugural Address Corpus'
 # 'text5 is NPS Chat Corpus, for unconvential words like im, ur, lol'
 
+# similar will find words that are used in a similar range of contexts to the string entered as an argument
+text1.similar("monstrous")
+text2.similar("monstrous")
+
+# common_contexts shows contexts that are shared by two or more words
+text2.common_contexts(["monstrous", "very"])
+
+# dispersion plots show positional information about the location of words in a text. we can use this to find patterns in word usage in a given text, or use it to find patterns of word usage over a period of history
+
+text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
