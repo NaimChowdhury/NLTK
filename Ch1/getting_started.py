@@ -48,5 +48,29 @@ len(set(text3)) / len(text3)
 def lexical_diversity(text):
     return len(set(text)) / len(text)
 
+# _2_ Lists
+
+# Texts are nothing more than a sequence of words and punctuation.
+
+sent1 = ['Call', 'me', 'Ishmael', '.']
+
+sent2
+sent3
+
+# Texts can be concatenated as well
+sent1+sent4
+
+sent1.append("word")
+
+# 2.2 Indexing lists
+
+text4[173]
+
+text4.index('awaken')
+
+# This section was very simple. Won't bother typing anything up
+
+# _3_ Computing with Language: Simple Statistics
+
 
 
