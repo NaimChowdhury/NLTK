@@ -43,5 +43,10 @@ len(set(text3))
 # calculating the "lexical richness" of a text is just number of distinct words divided by number of words
 len(set(text3)) / len(text3)
 
+# One could potentially define a function to measure the lexical diversity of a text
+# The following function divides the number of unique words by number of words
+def lexical_diversity(text):
+    return len(set(text)) / len(text)
+
 
 
